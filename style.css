@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #101010;
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;  
+}
+
+.logo {
+    width: 30%;
+    padding-left: 4rem;
+}
+
+.logo img {
+    width: 50%;
+}
+
+
+
+nav {
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: #ed7b0a;
+    font-size: 1.5rem;
+    
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+
+.cta {
+    width: 50%;
+    color: white;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+.cta h1 {
+    font-size: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+}
+
+.cta p {
+    padding-left: 4rem;
+    padding-right: 12rem;
+    line-height: 2rem;
+}
+
+.cta .inputs {
+    display: flex;
+    padding-left: 4rem;
+
+}
+
+.cta .inputs a {
+    color: #ed7b0a;
+    background-color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    font-weight: 600;
+
+}
+
+.inputs a.bnt1 {
+    background-color: white;
+}
+
+.inputs a.bnt2 {
+    
+    color: white;
+    background-image: linear-gradient(orange,red);
+}
+
+.slider {
+    width: 40%;
+
+   
+}
+
+.slider img {
+    width: 500px;
+    height: 520px;
+    margin-top: 1rem;
+}
+
+.legend {
+    width: 400px;
+    background-color: white;
+    padding: 1.5rem 4rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    position: relative;
+    z-index: 9;
+    font-weight: 600;
+    font-size: .8rem;
+    opacity: 0.8;
+    margin: -102px 0 0 50px;
+
+    
+}
+
+.media {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+
+.media div {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    margin-top: .2rem;
+    margin-bottom: .8rem;
+}
+
+.media div img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.media p {
+    position: absolute;
+    font-weight: 700;
+    color: white;
+    transform: rotate(90deg) translateX(-170%);
+}
+
+
+
+nav a span:hover {
+    text-decoration: underline;
+}
+
